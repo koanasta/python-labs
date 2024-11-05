@@ -1,5 +1,8 @@
 class Insect:
     def __init__(self, name, speed, mass, area, pop):
+        if speed <= 0 or mass <= 0:
+            raise ValueError("Speed and mass must be positive values.")
+
         self.__name = name
         self.__speed = speed
         self.__mass = mass
