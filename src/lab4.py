@@ -33,13 +33,13 @@ class Insect:
 
 insect = Insect("Monarch Butterfly", 3, 0.5, "North America", 21)
 print(insect)
-print("repr: " + repr(insect))
+print("repr: " , repr(insect))
 
 insect1 = Insect("Bee", 19, 200, "Almost everywhere", 101)
 print(insect1)
-print("repr: " + repr(insect1))
+print("repr: " , repr(insect1))
 
 insect2 = Insect("Spider", 0.53, 0.2, "Almost everywhere", 210000)
 print(insect2)
-print("repr: " + repr(insect2))
+print("repr: " , repr(insect2))
 
